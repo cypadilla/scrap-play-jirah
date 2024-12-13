@@ -5,7 +5,7 @@
   "main": "scrapper.js",
     "scripts": {
       "install:playwright": "npx playwright install",
-      "start": "npx playwright install && node scrapper.js"
+    "start": "npm run install:playwright && node scrapper.js"
     },
   "keywords": [],
   "author": "",
