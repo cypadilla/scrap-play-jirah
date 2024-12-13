@@ -5,7 +5,8 @@
   "main": "scrapper.js",
   "scripts": {
     "start": "node scrapper.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:playwright": "npx playwright install"
   },
   "keywords": [],
   "author": "",
