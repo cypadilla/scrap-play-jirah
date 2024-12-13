@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "scrapper.js",
-  "scripts": {
-    "start": "node scrapper.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install:playwright": "npx playwright install"
-  },
+    "scripts": {
+      "install:playwright": "npx playwright install",
+      "start": "npx playwright install && node scrapper.js"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
